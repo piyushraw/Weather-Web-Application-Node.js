@@ -1,6 +1,4 @@
 
-console.log("'client side scripting language");
-
 const weatherForm = document.querySelector('form');
 
 const search = document.querySelector('input');
