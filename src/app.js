@@ -30,7 +30,7 @@ app.get ('', (req, res)   =>  {
 res.render('index', {
 
     title : 'Weather',
-    name : 'Andrew Mead'
+    name : 'Piyush Rawat'
 
 })
 
@@ -41,7 +41,7 @@ app.get('/about' , (req, res)  => {
 res.render('about' , {
 
         title :'About Me',
-        name : 'Robot'
+        name : 'Piyush'
 
 })
 
@@ -131,7 +131,7 @@ app.get('*',(req,res) => {
 
 res.render('404', {
     title: 404,
-    name : 'Andrew Mead',
+    name : 'Piyush Rawat',
     errorMessage:'Page not found.'
 })
 
